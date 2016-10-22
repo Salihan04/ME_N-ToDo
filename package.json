@@ -4,7 +4,10 @@
   "description": "A ToDo list single page application using the MEAN stack.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "build src/scripts -d dist/scripts"
+  },
+  "scripts": {
+    "build": "babel --presets es2015 src/scripts -d dist/scripts"
   },
   "repository": {
     "type": "git",
@@ -21,6 +24,8 @@
   },
   "homepage": "https://github.com/Salihan04/MEAN-ToDo#readme",
   "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
     "chai": "^3.5.0",
     "chai-http": "^3.0.0"
   },
