@@ -2,12 +2,12 @@
     "name": "mean-todo",
     "version": "1.0.0",
     "description": "A ToDo list single page application using the ME*N stack.",
-    "main": "app.js",
+    "main": "server.js",
     "scripts": {
-        "build": "build src/scripts -d dist/scripts"
+        "build": "build app/src/js -d app/dist/js"
     },
     "scripts": {
-        "build": "babel --presets es2015 src/scripts -d dist/scripts"
+        "build": "babel --presets es2015 app/src/js -d app/dist/js"
     },
     "repository": {
         "type": "git",
