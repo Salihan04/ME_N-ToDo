@@ -9,3 +9,5 @@ A ToDo list single page application using the ME_N (Mongo, Express, any front en
 * [ ] Delete todo item
 * [ ] Write unit tests
 * [ ] Link app to CI server
+
+[![Standard - JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
