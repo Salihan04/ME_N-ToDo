@@ -2,7 +2,7 @@
     "name": "mean-todo",
     "version": "1.0.0",
     "description": "A ToDo list single page application using the ME*N stack.",
-    "main": "index.js",
+    "main": "app.js",
     "scripts": {
         "build": "build src/scripts -d dist/scripts"
     },
