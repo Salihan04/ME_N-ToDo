@@ -4,10 +4,8 @@
     "description": "A ToDo list single page application using the ME*N stack.",
     "main": "server.js",
     "scripts": {
-        "build": "build app/src/js -d app/dist/js"
-    },
-    "scripts": {
-        "build": "babel --presets es2015 app/src/js -d app/dist/js"
+        "build": "babel --presets es2015 app/src/js -d app/dist/js",
+        "start": "npm run build && node app/dist/js/server.js"
     },
     "repository": {
         "type": "git",
