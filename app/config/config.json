@@ -1,4 +1,4 @@
 {
     "port": 8080,
-    "db_url": ""
+    "db_url": "mongodb://localhost/han-dev"
 }
